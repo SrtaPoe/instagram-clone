@@ -7,7 +7,6 @@
     font-size: 14px
 }
 
-
 body {
     width: 100%;
     min-height: 100vh;
@@ -41,7 +40,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 8rem;
+    width: 3rem;
 }
 
 
@@ -69,6 +68,10 @@ body {
     min-height: 19rem;
 }
 
+.instagram-logo{ /*opção que diminiu o tamanho da logo que escolhi */
+    height: 3rem;
+}
+
 .profile-photo {
     display: flex;
     justify-content: center;
@@ -76,38 +79,3 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
-
-.profile-photo img{
-    height: 6rem;
-}
-
-.instragram-login {
-    background-color: #0095f6;
-    color: #ffffff;
-    padding: 8px;
-    border-radius: 4px;
-}
-
-.instagram-logout  {
-    color: #0095f6;
-    margin-top: 1rem;
-}
-
-.not-account {
-    color: rgb(160, 160, 160)
-}
-
-.link-blue {
-    color: #0095f6;
-}
-
-.get-the-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
-}
-
-

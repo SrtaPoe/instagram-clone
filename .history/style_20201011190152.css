@@ -7,7 +7,6 @@
     font-size: 14px
 }
 
-
 body {
     width: 100%;
     min-height: 100vh;
@@ -81,33 +80,8 @@ body {
     height: 6rem;
 }
 
-.instragram-login {
+.instagram-login {
     background-color: #0095f6;
-    color: #ffffff;
-    padding: 8px;
-    border-radius: 4px;
+
+
 }
-
-.instagram-logout  {
-    color: #0095f6;
-    margin-top: 1rem;
-}
-
-.not-account {
-    color: rgb(160, 160, 160)
-}
-
-.link-blue {
-    color: #0095f6;
-}
-
-.get-the-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
-}
-
-
