@@ -37,6 +37,14 @@ body {
     height: 50rem;
 }
 
+.instagram-logo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
 .instagram-continue {
     display: flex;
     align-items: center;
@@ -62,7 +70,7 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 8rem;
 }
 
 .profile-photo {
@@ -122,11 +130,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('/images/android.png');
+    background-image: url('./img/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('/images/apple.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
 /* media queries */

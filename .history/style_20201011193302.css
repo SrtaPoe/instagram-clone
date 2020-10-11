@@ -37,6 +37,14 @@ body {
     height: 50rem;
 }
 
+.instagram-logo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
 .instagram-continue {
     display: flex;
     align-items: center;
@@ -62,7 +70,7 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 8rem;
 }
 
 .profile-photo {
@@ -115,47 +123,3 @@ body {
 }
 
 
-.app-download {
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
-}
-
-.app-download:nth-child(1) {
-    background-image: url('/images/android.png');
-}
-
-.app-download:nth-child(2) {
-    background-image: url('/images/apple.png');
-}
-
-/* media queries */
-
-
-@media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
-    }
-}
-
-@media (max-width: 650px) {
-    body {
-        background-color: #ffffff;
-    }
-
-    .instagram-wrapper {
-        width: 90%;
-    }
-
-    .instagram-phone {
-        display: none;
-    }
-
-    .instagram-continue {
-        width: 100%;
-    }
-    
-    .group {
-        border: 1px solid transparent;
-    }
-}

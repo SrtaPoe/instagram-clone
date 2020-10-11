@@ -37,6 +37,14 @@ body {
     height: 50rem;
 }
 
+.instagram-logo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
 .instagram-continue {
     display: flex;
     align-items: center;
@@ -62,7 +70,7 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 8rem;
 }
 
 .profile-photo {
